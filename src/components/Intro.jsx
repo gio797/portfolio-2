@@ -10,7 +10,11 @@ function Intro() {
       <p className="section__subtitle section__subtitle--intro">
         front-end dev
       </p>
-      <img src={img} alt="a picture of Jane Smith smiling" />
+      <img
+        src={img}
+        alt="a picture of Jane Smith smiling"
+        className="intro__img"
+      />
     </section>
   );
 }
