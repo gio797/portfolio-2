@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <a href="mailto:hello@jane.dev" className="footer__link">
-        hello@jane.dev
+      <a href="mailto:g.muchaidze@yahoo.com" className="footer__link">
+        g.muchaidze@yahoo.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">
