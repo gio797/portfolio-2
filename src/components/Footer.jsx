@@ -2,27 +2,29 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <a href="mailto:g.muchaidze@yahoo.com" className="footer__link">
         g.muchaidze@yahoo.com
       </a>
-      <ul className="social-list">
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://codepen.io">
-            a
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
           </a>
         </li>
-        <li className="social-list__item">
-          b<a className="social-list__link" href="http://dribbble.com"></a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://twitter.com">
-            c
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+            <i class="fab fa-dribbble"></i>
           </a>
         </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
-            d
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
           </a>
         </li>
       </ul>
