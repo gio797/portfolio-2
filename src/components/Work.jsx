@@ -13,8 +13,10 @@ import img10 from "../images/portfolio-10.jpg";
 function Work() {
   return (
     <section className="my-work" id="work">
-      <h2 className="section__title">My work</h2>
-      <p className="section__subtitle"></p>
+      <h2 className="section__title section__title--work">My work</h2>
+      <p className="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
       <div className="portfolio">
         <a href="#" className="portfolio__item">

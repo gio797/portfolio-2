@@ -24,7 +24,11 @@ function About() {
         </p>
       </div>
 
-      <img src={img} alt="Jane leaning against a bus" />
+      <img
+        src={img}
+        alt="Jane leaning against a bus"
+        className="about-me__img"
+      />
     </section>
   );
 }
