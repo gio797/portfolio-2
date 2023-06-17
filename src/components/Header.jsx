@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "../images/devjane.png";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,40 +20,40 @@ function Header() {
       <nav className={showMenu ? "nav active" : "nav"}>
         <ul className="nav__list">
           <li className="nav__item">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="nav__link"
               onClick={() => setShowMenu(false)}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav__item">
-            <a
-              href="#services"
+            <HashLink
+              to={"/#services"}
               className="nav__link"
               onClick={() => setShowMenu(false)}
             >
               My Services
-            </a>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <a
-              href="#about"
+            <HashLink
+              to={"/#about"}
               className="nav__link"
               onClick={() => setShowMenu(false)}
             >
               About me
-            </a>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <a
-              href="#work"
+            <HashLink
+              to={"/#work"}
               className="nav__link"
               onClick={() => setShowMenu(false)}
             >
               My Work
-            </a>
+            </HashLink>
           </li>
         </ul>
       </nav>

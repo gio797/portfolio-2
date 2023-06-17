@@ -19,43 +19,43 @@ function Work() {
       </p>
 
       <div className="portfolio">
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img01} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img02} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img03} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img04} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img05} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img06} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img07} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img08} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img09} alt="" className="portfolio__img" />
         </a>
 
-        <a href="#" className="portfolio__item">
+        <a href="project" className="portfolio__item">
           <img src={img10} alt="" className="portfolio__img" />
         </a>
       </div>
