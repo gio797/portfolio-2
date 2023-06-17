@@ -247,6 +247,34 @@ header {
   bottom: 6px;
 }
 
+@media (min-width: 800px) {
+  header {
+    align-items: center;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    position: unset;
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    transform: translateX(0%);
+    transition: none !important;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav__link {
+    font-size: var(--fs-h3);
+  }
+}
+
 /*  Intro section  */
 
 .intro {
